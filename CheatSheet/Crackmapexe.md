@@ -38,6 +38,7 @@
 |-|-|
 | `--export $(pwd)/output.txt` | Export the output into a JSON format. | 
 | `sed -i "s/'/\"/g" <output_export>` | Format output to use with `jq` application. |
+| `jq -r '.[]' users.txt > userlist.txt` | Format userlist |
 | `cme [protocol] <target> > output.txt` | An alternative if a command doesn't support export is to redirect the output to a file with `>`. |
 
 ---
