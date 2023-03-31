@@ -140,7 +140,7 @@
 | **Command**| **Description**|
 |-|-|
 | `cme smb <target> -u <u> -p <p> --spider <share_name> --pattern <pattern> ` | Search in a remote share for a pattern. | 
-| `cme smb <target> -u <u> -p <p> --spider <share_name> --regex <regex> ` | Search in a remote share using regular expression. | 
+| `cme smb <target> -u <u> -p <p> --spider <share_name> --regex <regex> ` | Search in a remote share using regular expression. "." list all files and directories | 
 | `cme smb <target> -u <u> -p <p> --spider <share_name> --content` | Enable content search. Can be combined with --pattern or --regex. | 
 | `cme smb <target> -u <u> -p <p> --share <share_name> --get-file <remote_filename> <output_filename>` | Get a remote file from a shared folder. |
 | `cme smb <target> -u <u> -p <p> --share <share_name> --put-file <local_filename> <remote_filename>` | Put a local file into a remote location. |
