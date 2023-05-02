@@ -12,9 +12,9 @@
 
 | **Command**   | **Description**   |
 | --------------|-------------------|
-| `/opt/useful/SecLists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt` | Default Passwords Wordlist |
-| `/opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt` | Common Passwords Wordlist |
-| `/opt/useful/SecLists/Usernames/Names/names.txt` | Common Names Wordlist |
+| `/usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt` | Default Passwords Wordlist |
+| `/usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt` | Common Passwords Wordlist |
+| `/usr/share/seclists/Usernames/Names/names.txt` | Common Names Wordlist |
 
 # Misc
 
