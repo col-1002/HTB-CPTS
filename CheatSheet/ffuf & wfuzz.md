@@ -29,3 +29,11 @@
 | `sudo sh -c 'echo "SERVER_IP  academy.htb" >> /etc/hosts'` | Add DNS entry |
 | `for i in $(seq 1 1000); do echo $i >> ids.txt; done` | Create Sequence Wordlist |
 | `curl http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'id=key' -H 'Content-Type: application/x-www-form-urlencoded'` | curl w/ POST |
+
+# Wfuzz
+| **Command**   | **Description**   |
+| --------------|-------------------|
+| `wfuzz -u http://10.10.196.77:80/FUZZ/note.txt -w /usr/share/wordlists/dirb/big.txt --hw 57` | Directory Fuzzing  |
+| `wfuzz -u http://horizontall.htb/ -v -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host:FUZZ.trilocor.local --hw 65` | Sub-domain Fuzzing |
+| `wfuzz -u http://api.motunui.thm:3000/v2/login  -X POST -w /usr/share/wordlists/rockyou.txt -H 'Content-Type: application/json' -d '{"username":"maui","password":"FUZZ"}'  --hh 31  -t 50` | Parameter Fuzzing |
+
