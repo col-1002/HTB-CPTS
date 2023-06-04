@@ -2,7 +2,7 @@
 Most of the notes, resources and scripts I used to prepare for the HTB CPTS and "pass it the 2 time."
 
 ## 29-05-2023
-HTB Certified Penetration Testing Specialist (HTB CPTS)  [Badge here!](https://www.credly.com/earner/earned/badge/333ada6a-c23e-422c-a34a-109436cbd41c)   
+HTB Certified Penetration Testing Specialist (HTB CPTS)  [Badge here!](https://www.credly.com/badges/333ada6a-c23e-422c-a34a-109436cbd41c/public_url)   
 
 Giới thiệu về nó 1 chút:      
 	*HTB CPTS is a highly hands-on certification that assesses the candidates’ penetration testing skills. HTB Certified Penetration Testing Specialist certification holders will possess technical competency in the ethical hacking and penetration testing domains at an intermediate level. They will be able to spot security issues and identify avenues of exploitation that may not be immediately apparent from searching for CVEs or known exploit PoCs. They can also think outside the box, chain multiple vulnerabilities to showcase maximum impact, and actionably help organizations remediate vulnerabilities through commercial-grade pentesting reports.*
