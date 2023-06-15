@@ -47,4 +47,6 @@ Cảm ơn vì đã đọc tới đây!
 [Attacking Enterprise Networks: Double Pivot using Chisel](https://forum.hackthebox.com/t/attacking-enterprise-networks-double-pivot-using-chisel/267043)      
 [runas - Running PowerShell as another user, and launching a script - Stack Overflow](https://stackoverflow.com/questions/28989750/running-powershell-as-another-user-and-launching-a-script) 
 #### 3 module 
-
+[Windows Privilege Escalation](https://academy.hackthebox.com/module/details/67)
+[Active Directory Enumeration & Attacks ](https://academy.hackthebox.com/module/details/143)
+[Pivoting, Tunneling, and Port Forwarding](https://academy.hackthebox.com/module/details/158)
